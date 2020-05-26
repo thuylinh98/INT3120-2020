@@ -35,7 +35,7 @@ class Setting extends React.Component {
           barStyle="light-content"
           centerComponent={<Text style={styles.title}>SETTINGS</Text>}
           containerStyle={{
-            height: 100,
+            height: 80,
             backgroundColor: '#fff',
           }}
         />
@@ -334,8 +334,8 @@ const styles = StyleSheet.create({
     letterSpacing: 1,
   },
   title: {
-    letterSpacing: 4,
-    fontSize: 25,
+    letterSpacing: 3,
+    fontSize: 20,
     fontWeight: 'bold',
     color: '#4f6a6e',
   },

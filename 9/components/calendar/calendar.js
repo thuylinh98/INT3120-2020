@@ -172,12 +172,12 @@ export default class Calendar extends Component {
           barStyle="light-content"
           centerComponent={{
             text: 'CALENDAR',
-            style: { color: '#fff', fontSize: 25, fontWeight: 'bold', letterSpacing: 4 },
+            style: { color: '#fff', fontSize: 20, fontWeight: 'bold', letterSpacing: 3 },
           }}
           containerStyle={{
             backgroundColor: '#1976D2',
             justifyContent: 'center',
-            height: 100,
+            height: 80,
           }}
         />
         <Agenda

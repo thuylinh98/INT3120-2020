@@ -28,7 +28,7 @@ class LoginScreen extends Component {
               style={{ paddingLeft: '10%', color: '#fff', paddingTop: '10%' }}
               onPress={() => this.back()}
             />
-            <View style={{ alignItems: 'center' }}>
+            <View style={{ alignItems: 'center', flex: 1, justifyContent: 'center', top: -20 }}>
               <Image source={require('../image/icon.png')} style={{ width: 80, height: 80 }} />
               <Text
                 style={{

@@ -186,11 +186,11 @@ export default class ViewLesson extends React.Component {
           barStyle="light-content"
           centerComponent={{
             text: 'LIST LESSON',
-            style: { fontSize: 25, color: '#fff', letterSpacing: 4, fontWeight: 'bold' },
+            style: { fontSize: 20, color: '#fff', letterSpacing: 3, fontWeight: 'bold' },
           }}
           containerStyle={{
             backgroundColor: '#1976D2',
-            height: 100,
+            height: 80,
           }}
         />
         <ScrollView
