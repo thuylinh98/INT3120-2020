@@ -170,11 +170,11 @@ export default class ViewLesson extends React.Component {
     );
   };
 
-  changeData = () => {
+  changeData = async () => {
     this.setState({ editModal: false });
     let newData = this.state.data;
     newData[this.state.idSelected] = this.state.dataSelected;
-    //await updateLesson(this.state.dataSelected);
+    await updateLesson(this.state.dataSelected);
     this.setState({ data: newData });
   };
 
