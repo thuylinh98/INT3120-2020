@@ -45,7 +45,7 @@ export default class HelloScreen extends React.Component {
             <View style={{ marginTop: heightPhone * 0.05 }} />
             <Text
               onPress={() => auth.signInAnonymously()}
-              style={{ fontSize: 17, color: '#fff', fontWeight: 'bold' }}
+              style={{ fontSize: 17, color: '#fff', fontWeight: 'bold',textAlignVertical: "center",textAlign: "center",}}
             >
               Use Anonymous? Sign In Anonymously
             </Text>
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   view: {
-    marginTop: '60%',
+    height: heightPhone*0.5,
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -80,5 +80,6 @@ const styles = StyleSheet.create({
     marginTop: '30%',
     marginLeft: '10%',
     marginRight: '10%',
+    height: heightPhone*0.5,
   },
 });

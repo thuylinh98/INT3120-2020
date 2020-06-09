@@ -169,11 +169,11 @@ export default class ViewTask extends React.Component {
           barStyle="light-content"
           centerComponent={{
             text: 'LIST TASK',
-            style: { fontSize: 25, color: '#fff', letterSpacing: 4, fontWeight: 'bold' },
+            style: { fontSize: 20, color: '#fff', letterSpacing: 3, fontWeight: 'bold' },
           }}
           containerStyle={{
             backgroundColor: '#7cb342',
-            height: 100,
+            height: 80,
           }}
         />
         <ScrollView
